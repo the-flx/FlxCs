@@ -16,7 +16,7 @@ Console.Write(score.score);  // 237
 ## 🔍 See Also
 
 - [flx](https://github.com/lewang/flx) - Original algorithm
-- [flx-rs](https://github.com/jcs090218/flx-rs) - Port in Rust
+- [flx-rs](https://github.com/jcs090218/flx-rs) - Rewrite emacs-flx in Rust for dynamic modules
 
 ## License
 
