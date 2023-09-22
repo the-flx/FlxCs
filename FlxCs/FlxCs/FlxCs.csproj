@@ -12,6 +12,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="..\..\FlxCs.Unity\Assets\FlxCs\Scripts\Flx.cs" Link="Flx.cs" />
+    <Compile Include="..\..\FlxCs.Unity\Assets\FlxCs\Scripts\Score.cs" Link="Score.cs" />
+    <Compile Include="..\..\FlxCs.Unity\Assets\FlxCs\Scripts\Util.cs" Link="Util.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="..\..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
