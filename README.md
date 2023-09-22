@@ -4,6 +4,13 @@
 # FlxCs
 > Rewrite emacs-flx in C#
 
+## 🔨 Usage
+
+```cs
+Score score = Flx.Score("switch-to-buffer", "stb");
+
+Console.Write(score.score);  // 237
+```
 
 ## 🔍 See Also
 
