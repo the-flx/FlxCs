@@ -9,12 +9,13 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/jcs090218/FlxCs</RepositoryUrl>
     <PackageTags>fuzzy algorithm flx</PackageTags>
+    <AssemblyName>FlxCs</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="..\..\FlxCs.Unity\Assets\FlxCs\Scripts\Flx.cs" Link="Flx.cs" />
-    <Compile Include="..\..\FlxCs.Unity\Assets\FlxCs\Scripts\Score.cs" Link="Score.cs" />
-    <Compile Include="..\..\FlxCs.Unity\Assets\FlxCs\Scripts\Util.cs" Link="Util.cs" />
+    <Compile Include="..\..\Source\Assets\FlxCs\Scripts\Flx.cs" Link="Flx.cs" />
+    <Compile Include="..\..\Source\Assets\FlxCs\Scripts\Score.cs" Link="Score.cs" />
+    <Compile Include="..\..\Source\Assets\FlxCs\Scripts\Util.cs" Link="Util.cs" />
   </ItemGroup>
 
   <ItemGroup>

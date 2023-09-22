@@ -10,6 +10,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 * N/A
 
+## 0.1.1
+> Released Sep 22, 2023
+
+* Add DLL version
+
 ## 0.1.0
 > Released Sep 22, 2023
 

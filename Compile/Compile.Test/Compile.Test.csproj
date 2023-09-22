@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FlxCs\FlxCs.csproj" />
+    <ProjectReference Include="..\Compile\Compile.csproj" />
   </ItemGroup>
 
 </Project>
