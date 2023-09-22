@@ -64,6 +64,10 @@ namespace FlxCs
             }
         }
 
+        /// <summary>
+        /// Return hash-table for string where keys are characters.
+        /// Value is a sorted list of indexes for character occurrences.
+        /// </summary>
         public static void GetHashForString(Dictionary<int, List<int>> result, string str)
         {
             result.Clear();
@@ -94,6 +98,11 @@ namespace FlxCs
             }
         }
 
+        /// <summary>
+        /// Generate the heatmap vector of string.
+        ///
+        /// See documentation for logic.
+        /// </summary>
         public static void GetHeatmapStr(List<int> scores, string str, char? groupSeparator)
         {
             int strLen = str.Length;
@@ -242,6 +251,11 @@ namespace FlxCs
             }
         }
 
+        /// <summary>
+        /// Return sublist bigger than VAL from sorted SORTED-LIST.
+        /// 
+        /// If VAL is nil, return entire list.
+        /// </summary>
         public static void BiggerSublist(List<int> result, List<int> sortedList, int? val)
         {
             if (sortedList == null)
@@ -266,6 +280,10 @@ namespace FlxCs
             }
         }
 
+        /// <summary>
+        /// Recursively compute the best match for a string, passed as STR-INFO and
+        /// HEATMAP, according to QUERY.
+        /// </summary>
         public static void FindBestMatch(List<Score> imatch,
             Dictionary<int, List<int>> strInfo,
             List<int> heatmap,
