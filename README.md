@@ -2,7 +2,7 @@
 > Rewrite emacs-flx in C#
 
 
-## See Also
+## 🔍 See Also
 
 - [flx](https://github.com/lewang/flx) - Original algorithm
 - [flx-rs](https://github.com/jcs090218/flx-rs) - Port in Rust
