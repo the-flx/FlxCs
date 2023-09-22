@@ -2,7 +2,7 @@
 [![Release](https://img.shields.io/github/tag/jcs090218/FlxCs.svg?label=release&logo=github)](https://github.com/jcs090218/FlxCs/releases/latest)
 [![Unity Engine](https://img.shields.io/badge/unity-2023.1.11f1-black.svg?style=flat&logo=unity)](https://unity3d.com/get-unity/download/archive)
 [![Nuget DT](https://img.shields.io/nuget/dt/FlxCs?logo=nuget&logoColor=49A2E6)](https://www.nuget.org/packages/FlxCs/)
-[![.NET 4.x Scripting Runtime](https://img.shields.io/badge/.NET-2.0-blueviolet.svg)](https://docs.unity3d.com/2018.3/Documentation/Manual/ScriptingRuntimeUpgrade.html)
+[![.NET](https://img.shields.io/badge/.NET-2.0-blueviolet.svg)](https://docs.unity3d.com/2018.3/Documentation/Manual/ScriptingRuntimeUpgrade.html)
 
 # FlxCs
 > Rewrite emacs-flx in C#
