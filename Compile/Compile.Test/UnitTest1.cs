@@ -23,8 +23,13 @@ namespace FlxCs.Test
         public void TestScore()
         {
             Score score = Flx.Score("switch-to-buffer", "stb");
-
             Assert.AreEqual(237, score.score);
+
+            score = Flx.Score("TestSomeFunctionExterme", "met");
+            Assert.AreEqual(57, score.score);
+
+            score = Flx.Score("MetaX_Version", "met");
+            Assert.AreEqual(211, score.score);
         }
     }
 }

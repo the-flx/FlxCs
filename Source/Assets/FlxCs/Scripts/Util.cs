@@ -36,5 +36,17 @@ namespace FlxCs
             List<int> lst = result[key];
             lst.Insert(0, val);
         }
+
+        public static string ToString<T>(List<T> lst)
+        {
+            string str = "";
+
+            foreach (var elm in lst)
+            {
+                str += elm.ToString() + " ";
+            }
+
+            return str;
+        }
     }
 }

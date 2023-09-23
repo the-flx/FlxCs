@@ -8,25 +8,14 @@ public class Test : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        Score score = Flx.Score("switch-to-buffer", "stb");
-
-        print(score.score);
-
-        Print(score.indices);
+        TestOne("TestSomeFunctionExterme", "met");
+        TestOne("MetaX_Version", "met");
     }
 
-    private void Other()
+    private void TestOne(string str, string query)
     {
-        print(Flx.Word('C'));
-
-        var lst = new List<int>() { 1, 2, 3, 4 };
-
-        Flx.IncVec(lst, null, null, null);
-
-        foreach (int i in lst)
-        {
-            print(i);
-        }
+        Score score = Flx.Score(str, query);
+        print(score.ToString());
     }
 
     public static void Print<T>(List<T> lst)
@@ -43,11 +32,15 @@ public class Test : MonoBehaviour
 
     public static void Print<T>(Dictionary<int, List<T>> dict)
     {
+        string str = "";
+
         foreach (KeyValuePair<int, List<T>> entry in dict)
         {
-            Debug.LogWarning(entry.Key);
-            Print(entry.Value);
+            str += entry.Key + " ";
+            //Print(entry.Value);
         }
+
+        Debug.Log(str);
     }
 }
 #endif

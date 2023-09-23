@@ -343,7 +343,7 @@ namespace FlxCs
                             if ((caar - 1) == index)
                             {
                                 tempScore = cadr + heatmap[index] +
-                                    (Math.Min(cddr, 0) * 15) +  // boost contiguous matches
+                                    (Math.Min(cddr, 3) * 15) +  // boost contiguous matches
                                     60;
                             }
                             else

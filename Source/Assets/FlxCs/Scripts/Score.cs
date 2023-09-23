@@ -14,5 +14,10 @@ namespace FlxCs
             this.score = score;
             this.tail = tail;
         }
+
+        public override string ToString()
+        {
+            return  score + " " + Util.ToString(indices);
+        }
     }
 }
