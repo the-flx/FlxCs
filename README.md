@@ -7,6 +7,8 @@
 # FlxCs
 > Rewrite emacs-flx in C#
 
+[![Compile](https://github.com/jcs090218/FlxCs/actions/workflows/compile.yml/badge.svg)](https://github.com/jcs090218/FlxCs/actions/workflows/compile.yml)
+
 ## 🔨 Usage
 
 ```cs
