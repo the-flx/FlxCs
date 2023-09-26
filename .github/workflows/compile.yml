@@ -12,7 +12,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  Solution_Name: shader-ls.sln
+  Solution_Name: Compile.sln
 
 jobs:
   build:
