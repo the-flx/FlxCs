@@ -17,6 +17,10 @@ Score score = Flx.Score("switch-to-buffer", "stb");
 Console.Write(score.score);  // 237
 ```
 
+## 📂 Example
+
+- [Mx][] - M-x for Unity
+
 ## 🔍 See Also
 
 - [flx](https://github.com/lewang/flx) - Original algorithm
@@ -27,3 +31,5 @@ Console.Write(score.score);  // 237
 FlxCs is distributed under the terms of the MIT license.
 
 See [LICENSE](./LICENSE) for details.
+
+[Mx]: https://github.com/jcs090218/Unity.Mx
