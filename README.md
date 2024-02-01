@@ -25,15 +25,19 @@ Console.Write(score.score);  // 237
 
 - [flx][] - Original algorithm
 - [flx-rs][] - Rewrite emacs-flx in Rust for dynamic modules
+- [flx-ts][] - Rewrite emacs-flx in TypeScript, with added support for JavaScript
 
-## License
+## ⚜️ License
 
 FlxCs is distributed under the terms of the MIT license.
 
 See [LICENSE](./LICENSE) for details.
 
 
+<!-- Links -->
+
 [Mx]: https://github.com/jcs090218/Unity.Mx
 
 [flx]: https://github.com/lewang/flx
 [flx-rs]: https://github.com/jcs090218/flx-rs
+[flx-ts]: https://github.com/jcs090218/flx-ts
