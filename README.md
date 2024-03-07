@@ -40,7 +40,7 @@ See [LICENSE](./LICENSE) for details.
 [Mx]: https://github.com/jcs090218/Unity.Mx
 
 [flx]: https://github.com/lewang/flx
-[flx-rs]: https://github.com/jcs-elpa/flx-rs
+[flx-rs]: https://github.com/jcs090218/flx-rs
 [FlxCs]: https://github.com/jcs090218/FlxCs
 [flx-ts]: https://github.com/jcs090218/flx-ts
 [flx-c]: https://github.com/jcs090218/flx-c
