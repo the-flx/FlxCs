@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>$(VersionPrefix)0.1.2</Version>
+    <Version>$(VersionPrefix)0.2.0</Version>
     <Description>Rewrite emacs-flx in C#</Description>
     <Copyright>FlxCs is distributed under the terms of the MIT license.</Copyright>
     <PackageProjectUrl>https://github.com/jcs090218/FlxCs</PackageProjectUrl>
