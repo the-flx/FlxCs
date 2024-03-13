@@ -22,14 +22,14 @@ namespace FlxCs.Test
         [TestMethod]
         public void TestScore()
         {
-            Score score = Flx.Score("switch-to-buffer", "stb");
-            Assert.AreEqual(237, score.score);
+            Result result = Flx.Score("switch-to-buffer", "stb");
+            Assert.AreEqual(237, result.score);
 
-            score = Flx.Score("TestSomeFunctionExterme", "met");
-            Assert.AreEqual(57, score.score);
+            result = Flx.Score("TestSomeFunctionExterme", "met");
+            Assert.AreEqual(57, result.score);
 
-            score = Flx.Score("MetaX_Version", "met");
-            Assert.AreEqual(211, score.score);
+            result = Flx.Score("MetaX_Version", "met");
+            Assert.AreEqual(211, result.score);
         }
     }
 }

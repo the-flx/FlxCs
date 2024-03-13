@@ -14,7 +14,7 @@
 
   <ItemGroup>
     <Compile Include="..\..\Source\Assets\FlxCs\Scripts\Flx.cs" Link="Flx.cs" />
-    <Compile Include="..\..\Source\Assets\FlxCs\Scripts\Score.cs" Link="Score.cs" />
+    <Compile Include="..\..\Source\Assets\FlxCs\Scripts\Result.cs" Link="Result.cs" />
     <Compile Include="..\..\Source\Assets\FlxCs\Scripts\Util.cs" Link="Util.cs" />
   </ItemGroup>
 
