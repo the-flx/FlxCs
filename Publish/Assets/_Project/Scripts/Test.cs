@@ -8,11 +8,11 @@ public class Test : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        Score score = Flx.Score("switch-to-buffer", "stb");
+        Result result = Flx.Score("switch-to-buffer", "stb");
 
-        print(score.score);
+        print(result.score);
 
-        Print(score.indices);
+        Print(result.indices);
     }
 
     private void Other()
