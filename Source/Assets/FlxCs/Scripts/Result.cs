@@ -2,13 +2,13 @@
 
 namespace FlxCs
 {
-    public class Score
+    public class Result
     {
         public List<int> indices;
         public int score;
         public int tail;
 
-        public Score(List<int> indices, int score, int tail)
+        public Result(List<int> indices, int score, int tail)
         {
             this.indices = indices;
             this.score = score;

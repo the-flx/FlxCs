@@ -284,17 +284,17 @@ namespace FlxCs
         /// Recursively compute the best match for a string, passed as STR-INFO and
         /// HEATMAP, according to QUERY.
         /// </summary>
-        public static void FindBestMatch(List<Score> imatch,
+        public static void FindBestMatch(List<Result> imatch,
             Dictionary<int, List<int>> strInfo,
             List<int> heatmap,
             int? greaterThan,
             string query, int queryLength,
             int qIndex,
-            Dictionary<int, List<Score>> matchCache)
+            Dictionary<int, List<Result>> matchCache)
         {
             int? greaterNum = (greaterThan != null) ? greaterThan : 0;
             int? hashKey = qIndex + (greaterNum * queryLength);
-            List<Score> hashValue = Util.DictGet(matchCache, hashKey);
+            List<Result> hashValue = Util.DictGet(matchCache, hashKey);
 
             if (hashValue != null)  // Process matchCache here
             {
@@ -311,8 +311,6 @@ namespace FlxCs
                 int tempScore;
                 int bestScore = int.MinValue;
 
-                //Test.Print(sortedList);
-
                 if (qIndex >= queryLength - 1)
                 {
                     // At the tail end of the recursion, simply generate all possible
@@ -321,14 +319,14 @@ namespace FlxCs
                     {
                         List<int> indices = new List<int>();
                         indices.Add(index);
-                        imatch.Add(new Score(indices, heatmap[index], 0));
+                        imatch.Add(new Result(indices, heatmap[index], 0));
                     }
                 }
                 else
                 {
                     foreach (int index in indexes)
                     {
-                        List<Score> elemGroup = new List<Score>();
+                        var elemGroup = new List<Result>();
                         FindBestMatch(elemGroup,
                             new Dictionary<int, List<int>>(strInfo),
                             new List<int>(heatmap),
@@ -363,21 +361,21 @@ namespace FlxCs
                                 int tail = 0;
                                 if ((caar - 1) == index)
                                     tail = cddr + 1;
-                                imatch.Add(new Score(indices, tempScore, tail));
+                                imatch.Add(new Result(indices, tempScore, tail));
                             }
                         }
                     }
                 }
 
                 // Calls are cached to avoid exponential time complexity
-                Util.DictSet(matchCache, hashKey, new List<Score>(imatch));
+                Util.DictSet(matchCache, hashKey, new List<Result>(imatch));
             }
         }
 
         /// <summary>
         /// Return best score matching QUERY against STR.
         /// </summary>
-        public static Score Score(string str, string query)
+        public static Result Score(string str, string query)
         {
             if (string.IsNullOrEmpty(str) || string.IsNullOrEmpty(query))
                 return null;
@@ -390,14 +388,14 @@ namespace FlxCs
 
             int queryLength = query.Length;
             bool fullMatchBoost = (1 < queryLength) && (queryLength < 5);
-            var matchCache = new Dictionary<int, List<Score>>();
-            var optimalMatch = new List<Score>();
+            var matchCache = new Dictionary<int, List<Result>>();
+            var optimalMatch = new List<Result>();
             FindBestMatch(optimalMatch, strInfo, heatmap, null, query, queryLength, 0, matchCache);
 
             if (optimalMatch.Count == 0)
                 return null;
 
-            Score result1 = optimalMatch[0];
+            Result result1 = optimalMatch[0];
             int caar = result1.indices.Count;
 
             if (fullMatchBoost && caar == str.Length)

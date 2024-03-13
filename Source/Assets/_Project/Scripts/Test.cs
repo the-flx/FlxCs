@@ -14,8 +14,8 @@ public class Test : MonoBehaviour
 
     private void TestOne(string str, string query)
     {
-        Score score = Flx.Score(str, query);
-        print(score.ToString());
+        Result result = Flx.Score(str, query);
+        print(result.ToString());
     }
 
     public static void Print<T>(List<T> lst)

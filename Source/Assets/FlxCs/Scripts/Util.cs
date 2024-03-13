@@ -4,7 +4,7 @@ namespace FlxCs
 {
     public static class Util
     {
-        public static void DictSet(Dictionary<int, List<Score>> result, int? key, List<Score> val)
+        public static void DictSet(Dictionary<int, List<Result>> result, int? key, List<Result> val)
         {
             if (key == null)
                 return;
