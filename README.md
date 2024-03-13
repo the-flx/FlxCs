@@ -12,9 +12,9 @@
 ## 🔨 Usage
 
 ```cs
-Score score = Flx.Score("switch-to-buffer", "stb");
+Result result = Flx.Score("switch-to-buffer", "stb");
 
-Console.Write(score.score);  // 237
+Console.Write(result.score);  // 237
 ```
 
 ## 📂 Example
@@ -27,6 +27,7 @@ Console.Write(score.score);  // 237
 - [flx-rs][] - Rewrite emacs-flx in Rust for dynamic modules
 - [flx-ts][] - Rewrite emacs-flx in TypeScript, with added support for JavaScript
 - [flx-c][] - Rewrite emacs-flx in C
+- [flx-zig][] - Rewrite emacs-flx in Zig
 
 ## ⚜️ License
 
@@ -44,3 +45,4 @@ See [LICENSE](./LICENSE) for details.
 [FlxCs]: https://github.com/jcs090218/FlxCs
 [flx-ts]: https://github.com/jcs090218/flx-ts
 [flx-c]: https://github.com/jcs090218/flx-c
+[flx-zig]: https://github.com/jcs090218/flx-zig
