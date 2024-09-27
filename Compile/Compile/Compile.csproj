@@ -2,14 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>$(VersionPrefix)0.2.0</Version>
+    <Version>$(VersionPrefix)0.2.1</Version>
     <Description>Rewrite emacs-flx in C#</Description>
     <Copyright>FlxCs is distributed under the terms of the MIT license.</Copyright>
-    <PackageProjectUrl>https://github.com/jcs090218/FlxCs</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/the-flx/FlxCs</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/jcs090218/FlxCs</RepositoryUrl>
+    <RepositoryUrl>https://github.com/the-flx/FlxCs</RepositoryUrl>
     <PackageTags>fuzzy algorithm flx</PackageTags>
     <AssemblyName>FlxCs</AssemblyName>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
