@@ -17,6 +17,12 @@ Result result = Flx.Score("switch-to-buffer", "stb");
 Console.Write(result.score);  // 237
 ```
 
+## 🛠️ Development
+
+For testing, we use the [Visual Studio][] built-in testing library.
+
+See Microsoft's support page for more information: [Walkthrough: Create and run unit tests for managed code](https://learn.microsoft.com/en-us/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-managed-code).
+
 ## 📂 Example
 
 - [Mx][] - M-x for Unity
@@ -34,3 +40,4 @@ See [`LICENSE`](./LICENSE) for details.
 
 [flx]: https://github.com/lewang/flx
 
+[Visual Studio]: https://visualstudio.microsoft.com/
