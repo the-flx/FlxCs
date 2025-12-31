@@ -1,5 +1,3 @@
-using FlxCs;
-
 namespace FlxCs.Test
 {
     [TestClass]
