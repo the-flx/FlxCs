@@ -21,7 +21,7 @@ Console.Write(result.score);  // 237
 
 For testing, we use the [Visual Studio][] built-in testing library.
 
-See Microsoft's support page for more information: [Walkthrough: Create and run unit tests for managed code](https://learn.microsoft.com/en-us/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-managed-code).
+See [Microsoft][]'s support page for more information: [Walkthrough: Create and run unit tests for managed code](https://learn.microsoft.com/en-us/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-managed-code).
 
 ## 📂 Example
 
@@ -40,4 +40,5 @@ See [`LICENSE`](./LICENSE) for details.
 
 [flx]: https://github.com/lewang/flx
 
+[Microsoft]: https://www.microsoft.com/
 [Visual Studio]: https://visualstudio.microsoft.com/
