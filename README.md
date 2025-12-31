@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Release](https://img.shields.io/github/tag/the-flx/FlxCs.svg?label=release&logo=github)](https://github.com/the-flx/FlxCs/releases/latest)
-[![Unity Engine](https://img.shields.io/badge/unity-2023.1.11f1-black.svg?style=flat&logo=unity)](https://unity3d.com/get-unity/download/archive)
+[![Unity Engine](https://img.shields.io/badge/unity-6000.3.0f1-black.svg?style=flat&logo=unity)](https://unity3d.com/get-unity/download/archive)
 [![.NET](https://img.shields.io/badge/.NET-2.0-blueviolet.svg)](https://learn.microsoft.com/en-us/dotnet/standard/net-standard?tabs=net-standard-1-0)
 [![Nuget DT](https://img.shields.io/nuget/dt/FlxCs?logo=nuget&logoColor=49A2E6)](https://www.nuget.org/packages/FlxCs/)
 
