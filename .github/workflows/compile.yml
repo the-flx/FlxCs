@@ -29,14 +29,10 @@ jobs:
     steps:
     - uses: actions/checkout@v6
 
-    # Install the .NET Core workload
     - name: Install .NET Core
       uses: actions/setup-dotnet@v5
       with:
         dotnet-version: 8.0.x
-
-    - name: Setup MSBuild.exe
-      uses: microsoft/setup-msbuild@v2.0.0
 
     - name: Execute unit tests
       working-directory: Compile
@@ -44,6 +40,6 @@ jobs:
 
     - name: Build the application
       working-directory: Compile
-      run: msbuild $env:Solution_Name /t:Rebuild /p:Configuration=$env:Configuration
+      run: dotnet build
       env:
         Configuration: ${{ matrix.configuration }}
